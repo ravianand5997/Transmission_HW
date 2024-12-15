@@ -39,6 +39,9 @@ Debugging hardware-related issues can be tricky without actual tools.
 
 
 
+
+
+
 Approach 2: Alternative Python Simulation
 This approach eliminates the need for hardware (MCU) by simulating the entire system on a Windows PC using virtual COM ports.
 
