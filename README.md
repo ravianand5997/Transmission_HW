@@ -1,4 +1,9 @@
 # Transmission_HW
+At the time of working on this assignment, I did not have access to any hardware devices like an Arduino or other microcontroller boards. To address this, I devised two approaches to demonstrate the solution. The first approach is a hardware-based implementation using an MCU, where the PC communicates with the MCU via UART, and the MCU processes and stores data in its EEPROM, then transmits it back to the PC. The second approach is a fully virtual solution using Python, simulating the PC and MCU communication via virtual COM ports created using the com0com tool. This approach replicates the data transmission process, including live speed measurement, making it suitable for testing without physical hardware. Below are the detailed solutions for both approaches.
+
+
+
+
 
 
 Approach 1: PC and MCU Code
